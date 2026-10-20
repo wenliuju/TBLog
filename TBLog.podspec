@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   DESC
 
   s.homepage         = 'https://github.com/wenliuju/TBLog'
-  s.source           = { :git => 'git@github.com:wenliuju/TBLog.git', :tag => s.version.to_s }
+  # HTTPS：任何配了 GitHub 凭据的机器都能装；私有仓库要求本机已通过 keychain 或 PAT 认证
+  s.source           = { :git => 'https://github.com/wenliuju/TBLog.git', :tag => s.version.to_s }
   s.license          = { :type => 'Proprietary', :text => '内部框架，仅限公司内部项目使用。' }
   # 发布者。头文件署名的原作者是 Sam（bundle id com.vimoto.TBLog），
   # 他的邮箱未确认，先不把猜测值写进元数据
