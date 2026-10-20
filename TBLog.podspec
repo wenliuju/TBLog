@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TBLog'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Shared iOS logging framework with per-module log scopes.'
   s.description      = <<-DESC
     TBLog 是公司内部共用的日志框架：各 SDK 通过 scopeForModule: 拿到自己的 TBLogScope，
