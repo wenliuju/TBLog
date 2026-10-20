@@ -1,0 +1,6 @@
+framework module TBLog {
+  umbrella header "TBLog.h"
+  export *
+
+  module * { export * }
+}
